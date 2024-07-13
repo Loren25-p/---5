@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="aqua">
+    <h3> Выберите курс для обучения </h3>
+    <div class="dynamicalForm">
+        <label for="">
+            ИМЯ:
+            <input type="text">
+            
+                Курс:
+                <select name="" id="course" onchange="coursePrice()">
+                <option value="none">Выберите курс</option>
+                <option value="maths">Математика с нуля</option>
+                <option value="english">IELTS за 3 месяца</option>
+                <option value="physics">Основы физики</option>
+            </select>
+        </label>
+        <label for="">
+            Стоимость обучения:
+            <input type="number"  name="course">
+        </label>
+        <label for="">
+            <input type="checkbox" id="confirm" onchange="coursePrice()">
+            Подтвердить:
+        </label>
+        <button disabled>Отправить</button>
+    </div>
+</div>  
+ 
+</body> 
+ <script src="/script.js"></script>
+</body>
+</html>
+</div>
